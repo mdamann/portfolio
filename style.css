@@ -68,7 +68,6 @@ header {
   background-clip: text;
 }
 
-
 header ul li {
   display: inline-block;
   list-style: none;
@@ -390,8 +389,8 @@ i {
   justify-content: center;
 }
 
-.exp-title{
-  font-size: 50px
+.exp-title {
+  font-size: 50px;
 }
 
 .experiences-section .exp {
@@ -908,8 +907,6 @@ footer {
 }
 
 @media (max-width: 480px) {
-  
-
   main h2 {
     display: block;
     margin-top: -3rem;
@@ -980,10 +977,6 @@ footer {
   }
 }
 
-
-
-
-
 @media (max-width: 380px) {
   body {
     padding: 1rem;
@@ -1014,75 +1007,83 @@ footer {
   footer h3 {
     font-size: 0.8rem;
   }
-} 
-
-
-
-
-
-@media (max-width: 700px){
-
-header .logo{
-  padding-left: 2.2rem;
-  
 }
 
-  header ul li{
+@media (max-width: 700px) {
+  header .logo {
+    padding-left: 2.2rem;
+  }
+
+  header ul li {
     display: none;
   }
-  header .contact-btn{
+  header .contact-btn {
     display: none;
   }
-  
-  main .title-section h1{
+
+  main .title-section h1 {
     font-size: 3rem;
-  } 
+  }
 
-    main .title-section h2{
-      display: none;
-    }
+  main .title-section h2 {
+    display: none;
+  }
 
-  #skill-sec .about-title{
+  #skill-sec .about-title {
     font-size: 2rem;
   }
 
-  .about-section{
-    margin-top: 20rem;
+  .about-section {
+    margin-top: 5rem;
   }
-  .about-section h1{
+  .about-section h1 {
     padding: 5px;
+  }
+
+  .tech {
+    grid-area: tech;
+    height: 210px;
+  }
+  .time {
+    grid-area: time;
+    min-height: 210px;
+  }
+  .passion {
+    grid-area: passion;
+    min-height: 210px;
   }
 
   .experiences-section {
     margin: 1rem;
   }
 
-  .experiences-section h3{
+  .experiences-section h3 {
     display: none;
   }
 
-  .projects-section h3{
+  .projects-section h3 {
     display: none;
   }
 
-  #qualify h3{
+
+  #qualify h3 {
     display: none;
   }
 
   .timeline {
-  max-width: 500px;
-  margin: 25px auto;
-  margin-top: 2.5rem;
-}
+    max-width: 500px;
+    margin: 25px auto;
+    margin-top: 2.5rem;
+  }
 
-#contactform .contact-grid .social-link a{
-  margin: 1rem;
-}
+  #contactform .contact-grid .social-link a {
+    margin: 1rem;
+  }
 
-footer h3{
-  padding: 1rem;
-}
-footer .box-icons .bx{
-  display: none;
-}
+  footer h3 {
+    padding: 1rem;
+  }
+  footer .box-icons .bx {
+    display: none;
+  }
 }
